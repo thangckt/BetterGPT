@@ -12,7 +12,8 @@ const Me = () => {
       target='_blank'
     >
       <HeartIcon />
-      {t('author')}
+      {/* {t('author')} */}
+      Thang
     </a>
   );
 };
