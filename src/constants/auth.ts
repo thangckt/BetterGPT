@@ -7,4 +7,4 @@ const localhostAPIEndpoint = 'http://127.0.0.1:8080/v1/chat/completions'
 export const defaultAPIEndpoint =
   import.meta.env.VITE_DEFAULT_API_ENDPOINT || localhostAPIEndpoint;
 
-export const availableEndpoints = [officialAPIEndpoint, customAPIEndpoint];
+export const availableEndpoints = [officialAPIEndpoint, customAPIEndpoint, localhostAPIEndpoint];
