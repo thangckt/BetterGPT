@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [tha_devel]
+    branches: [thadev]
   workflow_dispatch:
 
 permissions:
